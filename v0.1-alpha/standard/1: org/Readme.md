@@ -1,4 +1,4 @@
-# 1: Org
+# Org
 
 The organisation responsible for the reuse lifecycle and reusable assets
 

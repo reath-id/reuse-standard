@@ -1,4 +1,4 @@
-# 2: Cycle
+# Cycle
 
 Defines the steps a piece of packaging progresses through in each reuse cycle.
 
