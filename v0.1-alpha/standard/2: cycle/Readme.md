@@ -10,7 +10,7 @@ The cycle is made up of "Activities" which mark the movment of the reusable asse
 
 - [ ] **TODO**: diagram of example cycle here
 
-Each Activity can have one or more preceeding Activities, that define how the reusable asset moves through teh cycle. An Activity with no preccedding Activity is the point(s) at which this asset enters this reuse cycle. An Activity that is referenced by zero other Activities in this cycle is the point(s) where the asset leaves this cycle.
+Each Activity can have one or more preceeding Activities, that define how the reusable asset moves through the cycle. An Activity with no preccedding Activity is the point(s) at which this asset enters this reuse cycle. An Activity that is referenced by zero other Activities in this cycle is the point(s) where the asset leaves this cycle.
 
 - [ ] **TODO**: diagram here showing examples of entry Activities (eg "Asset Purchase"), and exit Activities (eg: "Sent to Recycling")
 
