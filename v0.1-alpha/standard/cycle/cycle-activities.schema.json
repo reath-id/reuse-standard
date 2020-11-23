@@ -1,0 +1,24 @@
+{
+    "id": "https://reuse-id.org/v1a/org/cycle-activities.schema.json#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "activity_id": {
+            "type": "string"
+        },
+        "activity_type": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "previous_activities": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "uniqueItems": true
+            }
+        }
+    },
+    "required": ["activity_id", "activity_type", "name"]
+}
