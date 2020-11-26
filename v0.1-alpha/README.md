@@ -12,27 +12,28 @@ The goal of this Open Data Standard, is to identify and standardise definitions 
 
 This is acheived by:
 
-- Creating a shared Vocabulary: Common definitions ensure everyone understands what words mean in the context of the data being collected (in this case, reuse).
+- Creating a shared Vocabulary: Common definitions ensure everyone understands what words mean in the context of the data being collected or analysed.
 
 - Facilitating Data transfer & sharing: enabling organisations (including reuse business, environmental regulators and researchers) to share *only* the data that is relevant, while enabling the wider goal of improving and growing reuse business models.
 
-## Notes
+## Options
 
- - [ ] **TODO**: extend notes on use cases
+ The standard is intended to be flexible enough to cover one more of the following data sets:
 
- The standard is intended to be flexible enough to use in any of the follow scenarios:
-
- - Defining and sharing specific reuse cycles
- - Describing and sharing the "state" of individual resuable assets (eg packaging) at any point in time
+ - Definition of specific reuse cycles
+ - Description of the types of reusable assets (including physical properties)
+ - Description of the "state" of individual resuable assets (eg packaging) at any point in time
  - Describing and sharing the detailed "history" of individual resuable assets across any time period
+
+ - [ ] **TODO**: link to web page with more details & examples of use cases for these options
 
  ## Data for individual reusable items: Digital Passports
 
 A Digital Passport is the digital vehicle for storing data that has been captured in a standardised way, i.e. via a data standard. Think of it like your own passport collecting information location about you as you travel, but instead of representing a person, a Digital Passport represents an individual piece of packaging and its journey.
 
-This Standard includes two optional ways to represent Digital Passports. Users of the Standard may choose to include one or both of these, or to exclude the Passport completely (using the Standard to share reuse cycles and maybe Asset Types only).
+This Standard includes two optional ways to represent Digital Passports. Users of the Standard may choose to include one or both of these, or to exclude the Passport completely (only including reuse cycles and maybe asset types).
 
-1. Passport Summary: this represents the "state" of the individual reusable item at a specific point in time. Think of this like using the Passport to idenify in which country a person is currently locationed and how many times they have been though a different country. Although, rather than country, the Digital Passport summary for a reusable item will include information like how many times it has been reused, at what stage in the reuse cycle is it now and which (if any) batch of consumable product it currently contains.
+1. Passport: this represents the "state" of the individual reusable item at a specific point in time. Think of this like using the Passport to idenify in which country a person is currently locationed and how many times they have been though a different country. Although, rather than country, the Digital Passport summary for a reusable item will include information like how many times it has been reused, at what stage in the reuse cycle is it now and which (if any) batch of consumable product it currently contains.
 
 1. Passport History: This is the detailed history of every step in the reuse cycle that each individual reusable asset has been through.
 
@@ -63,7 +64,7 @@ When referenced in the standard, field types refer to the following data types.
   </tr>
   <tr>
     <td>List</td>
-    <td>Alphanumeric string data, limited to specific acceptable values. The acceptable values are defined in relevant code list.</td>
+    <td>Alphanumeric string data, limited to specific acceptable values. The acceptable values are defined in relevant internal code list or in external standards or recognised code lists.</td>
   </tr>
   <tr>
     <td>UUID</td>
@@ -95,6 +96,5 @@ When referenced in the standard, field types refer to the following data types.
   </tr>
 </table>
 
-- [ ] **TODO**: data types for internal reference (eg asset type ID), external standards format (eg country code or product type), etc
 
 
