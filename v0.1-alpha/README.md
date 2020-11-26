@@ -58,6 +58,10 @@ When referenced in the standard, field types refer to the following data types.
     <td>Alphanumeric data, appropriately escaped and encoded for inclusion in a JSON document. </td>
   </tr>
   <tr>
+    <td>Decimal</td>
+    <td>Numeric value, to two decimal points (eg: 12.20 or 7.00). </td>
+  </tr>
+  <tr>
     <td>List</td>
     <td>Alphanumeric string data, limited to specific acceptable values. The acceptable values are defined in relevant code list.</td>
   </tr>

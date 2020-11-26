@@ -23,7 +23,8 @@ Activity Types are used to facilitate comparison between cycles and further busi
 Field Name | Data Type | Required | Description
 ---------- | --------- | -------- | -----------
 |cycle_id|UUID|Yes|Unique identifier|
-|name|string|No|Descriptive name|
+|name|String|No|Descriptive name|
+|reuse_model|List|No|Type of reuse model. Single value from the "Reuse Model" codelist|
 |activities|Array|Yes|Array of Activity objects, describing each step in the cycle|
 
 ### Activities
@@ -32,5 +33,5 @@ Field Name | Data Type | Required | Description
 ---------- | --------- | -------- | -----------
 |activity_id|UUID|Yes|Unique identifier|
 |activity_type|List|Yes|Single value from "Activity Type" codelist|
-|name|string|Yes|Descriptive name|
+|name|String|Yes|Descriptive name|
 |previous_activities|Array|No|Array of UUIDs referring to the zero, one ore more activities within this cycle that directly preceeds this one. |
