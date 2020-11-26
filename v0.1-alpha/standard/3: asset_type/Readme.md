@@ -18,8 +18,8 @@ Field Name | Data Type | Required | Description
 |cycle_id|UUID|Yes|Reference to the reuse cycle that this asset type moves through|
 |sku|String|No|Product SKU (should match org's inventory records)|
 |packaging_type|List|No|Single value from "Packaging Type" codelist|
-|product_c_ategory|xxx|No|**TODO**: clarify|
-|industry|String|No|**TODO**: clarify|
+|product_category|List|No|What category would the overall product fall into? (e.g. for packaging this is overall category the consumable product be sold in). Single value from [GS1 GPC - Class](https://www.gs1.org/services/gpc-browser)|
+|industry|List|No|What industry is the asset servicing? Single value from [ICB Subsector code list](https://www.ftserussell.com/data/industry-classification-benchmark-icb)|
 |unit_cost|Object|No|Cost per unit of the asset type, as a `money` object|
 |weight|Decimal|No|Weight of the empty asset (in grams)|
 |volume|Decimal|No|The volume of the asset (in mililitres)|
