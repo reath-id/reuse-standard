@@ -1,3 +1,3 @@
 Code,Title,Description
-start_step,The Starting Step,This is the first step of the reuse cycle, every time an asset goes through this step it is deemed to have completed one cycle. Should only be exactly ONE activity of this type in each cycle,
-step,Step,A step in the reuse cycle,
+start_step,The Starting Step,"This is the first step of the reuse cycle, every time an asset goes through this step it is deemed to have completed one cycle. Should only be exactly ONE activity of this type in each cycle"
+step,Step,A step in the reuse cycle
