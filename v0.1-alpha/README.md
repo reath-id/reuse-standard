@@ -4,7 +4,7 @@
 
 ## Options
 
- The standard is intended to be flexible enough to cover one more of the following data sets:
+ The standard is intended to be flexible enough to cover one or more of the following data sets:
 
  - Definition of specific reuse cycles
  - Description of the types of reusable assets (including physical properties)
@@ -13,7 +13,7 @@
 
  ## Data for individual reusable items: Digital Passports
 
-A Digital Passport is the digital vehicle for storing data that has been captured in a standardised way, i.e. via a data standard. Think of it like your own passport collecting information location about you as you travel, but instead of representing a person, a Digital Passport represents an individual piece of packaging and its journey.
+A Digital Passport is the digital vehicle for storing data that has been captured in a standardised way, i.e. via a data standard. Think of it like your own passport collecting location information about you as you travel, but instead of representing a person, a Digital Passport represents an individual piece of packaging and its journey.
 
 This Standard includes two optional ways to represent Digital Passports. Users of the Standard may choose to include one or both of these, or to exclude the Passport completely (only including reuse cycles and maybe asset types).
 
