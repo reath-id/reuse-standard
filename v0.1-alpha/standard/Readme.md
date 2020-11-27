@@ -5,7 +5,7 @@
 
 Field Name | Data Type | Required | Description
 ---------- | --------- | -------- | -----------
-[org](1:%20org)|Object|Yes|The single organisation responsible for this resue dataset
+[org](1: org)|Object|Yes|The single organisation responsible for this resue dataset
 date|DateTime|Yes|When this data was compiled
 date_range_start|DateTime|No|Optional date from which the Passport data starts. *Required* if passport_history is present
 date_range_end|DateTime|No|Optional date on which the Passport data ends. *Required* if passport_history is present
