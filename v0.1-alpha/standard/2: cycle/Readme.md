@@ -6,11 +6,11 @@ Defines the steps a piece of packaging progresses through in each reuse cycle.
 
 Reuse cycles are unique depending on the asset and the reuse model amoungst other variables. Any reuse.id dataset should be fully self describing, including the reuse cycle itself.
 
-The cycle is made up of "Activities" which mark the movment of the reusable asset through each step in the cycle. 
+The cycle is made up of "Activities" which mark the movement of the reusable asset through each step in the cycle. 
 
 - [ ] **TODO**: diagram of example cycle here
 
-Each Activity can have one or more following Activities, that define how the reusable asset moves through the cycle. 
+Each Activity can have one or more following Activities. These define how the reusable asset moves through the cycle. 
 
 The data may include explicit activities for when an asset joins or leaves the reuse cycle.
 

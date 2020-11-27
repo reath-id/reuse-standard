@@ -38,7 +38,7 @@ Field Name | Data Type | Required | Description
 |recycled_materials_percentage|Decimal|No|What % is made from recycled material? (For environmental reporting)|
 |recycled_materials_country_of_origin|List|No|Where the recycled material is sourced (for environmental reporting). Single Country code from [ISO 3166-1:2020(en)](https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en)|
 |cleaning_method|List|Yes|What type of cleaning is needed for this asset? Single value from "Cleaning methods" codelist.|
-|cleaning_agent|String|No|What surfactant is used when cleaning this asset?|
+|cleaning_agent|String|No|What surfactant is used when cleaning this asset? Publishers should share a codelist reference to promote consistency and clarity|
 |cleaning_time|Decimal|No|How long does the cleaning cycle take? (in minutes)|
 |cleaning_temperature|Decimal|No|What temperature is the asset cleaned at? (in Celsius)|
 
