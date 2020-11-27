@@ -1,20 +1,6 @@
-# reuse.id : Technical Definition
+# DRAFT (Alpha) v0.1 : Technical Definition
 
-## Why a reuse Open Data Standard?
-
-The opportunity for an Open Data Standard to accelerate and de-risk the shift towards reusable products (especially packaging) is significant. 
-
-- [ ] **TODO**: link to white paper and/or web page with detailed background
-
-## Summary
-
-The goal of this Open Data Standard, is to identify and standardise definitions that will support the launch, scaling, analysis and regulation of safe, optimised and compliant reuse systems. 
-
-This is acheived by:
-
-- Creating a shared Vocabulary: Common definitions ensure everyone understands what words mean in the context of the data being collected or analysed.
-
-- Facilitating Data transfer & sharing: enabling organisations (including reuse business, environmental regulators and researchers) to share *only* the data that is relevant, while enabling the wider goal of improving and growing reuse business models.
+> This is a draft (alpha) standard. Please [contact us](https://reath.id/contact) with questions or feedback. We are especially keen to hear from individuals and organisations interested in moving this standard forward.
 
 ## Options
 
@@ -22,10 +8,8 @@ This is acheived by:
 
  - Definition of specific reuse cycles
  - Description of the types of reusable assets (including physical properties)
- - Description of the "state" of individual resuable assets (eg packaging) at any point in time
- - Describing and sharing the detailed "history" of individual resuable assets across any time period
-
- - [ ] **TODO**: link to web page with more details & examples of use cases for these options
+ - Description of the "state" of individual resuable assets (e.g. packaging) at any point in time
+ - Describing the detailed "history" of individual resuable assets across any time period
 
  ## Data for individual reusable items: Digital Passports
 
