@@ -19,7 +19,7 @@ If no code is appropriate and the codelist is open, then a publisher may use a n
 
 Used to facilitate comparison between cycles and to identify the "starting" activity which is used to count the number of times each individual asset moves through the cycle.
 
-[activity_type.csv](activity_type.csv)
+[activity_types.csv](activity_types.csv)
 
 ### Allergens
 (Closed)
