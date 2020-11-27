@@ -8,13 +8,13 @@ Reuse cycles are unique depending on the asset and the reuse model amoungst othe
 
 The cycle is made up of "Activities" which mark the movement of the reusable asset through each step in the cycle. 
 
-- [ ] **TODO**: diagram of example cycle here
+![Simple reuse diagram example](../../examples/images/reuse_cycle_simple2.png)
 
 Each Activity can have one or more following Activities. These define how the reusable asset moves through the cycle. 
 
 The data may include explicit activities for when an asset joins or leaves the reuse cycle.
 
-- [ ] **TODO**: diagram here showing examples of entry Activities (eg "Asset Purchase"), and exit Activities (eg: "Sent to Recycling")
+![Reuse diagram example with entry and exit activities](../../examples/images/reuse_cycle_entry_exit.png)
 
 Activity Types are used to facilitate comparison between cycles and to identify the "starting" activity which is used to count the number of times each individual asset moves through the cycle.
 
