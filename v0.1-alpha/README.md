@@ -75,7 +75,7 @@ When referenced in the standard, field types refer to the following data types.
     <td>A numeric value, either as an integer or a  floating point number.</td>
   </tr>
   <tr>
-    <td>Date</td>
+    <td>DateTime</td>
     <td>An RFC 3339 compliant date string, including date, time, and time zone.</td>
   </tr>
   <tr>
