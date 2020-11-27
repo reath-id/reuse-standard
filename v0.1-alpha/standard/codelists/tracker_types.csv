@@ -1,0 +1,25 @@
+Code,Title,Description
+barcode_embed,Barcode - Embedded
+barcode_fob,Barcode - Fob
+barcode_glued,Barcode - Glued
+barcode_sewn,Barcode - Sewn
+bluetooth_embed,Bluetooth - Embedded
+bluetooth_fob,Bluetooth - Fob
+bluetooth_glued,Bluetooth - Glued
+bluetooth_sewn,Bluetooth - Sewn
+gps_embed,GPS - Embedded
+gps_fob,GPS - Fob
+gps_glued,GPS - Glued
+gps_sewn,GPS - Sewn
+nfc_embed,NFC - Embedded
+nfc_fob,NFC - Fob
+nfc_glued,NFC - Glued
+nfc_sewn,NFC - Sewn
+qr_embed,QR - Embedded
+qr_fob,QR - Fob
+qr_glued,QR - Glued
+qr_sewn,QR - Sewn
+rfid_embed,RFID - Embedded
+rfid_fob,RFID - Fob
+rfid_glued,RFID - Glued
+rfid_sewn,RFID - Sewn

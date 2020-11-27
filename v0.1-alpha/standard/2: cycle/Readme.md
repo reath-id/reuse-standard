@@ -10,11 +10,14 @@ The cycle is made up of "Activities" which mark the movment of the reusable asse
 
 - [ ] **TODO**: diagram of example cycle here
 
-Each Activity can have one or more preceeding Activities, that define how the reusable asset moves through the cycle. An Activity with no preccedding Activity is the point(s) at which this asset enters this reuse cycle. An Activity that is referenced by zero other Activities in this cycle is the point(s) where the asset leaves this cycle.
+Each Activity can have one or more following Activities, that define how the reusable asset moves through the cycle. 
+
+The data may include explicit activities for when an asset joins or leaves the reuse cycle.
 
 - [ ] **TODO**: diagram here showing examples of entry Activities (eg "Asset Purchase"), and exit Activities (eg: "Sent to Recycling")
 
-Activity Types are used to facilitate comparison between cycles and further business specific data which is outside the scope of this standard.
+Activity Types are used to facilitate comparison between cycles and to identify the "starting" activity which is used to count the number of times each individual asset moves through the cycle.
+
 
 ## Fields
 
@@ -34,4 +37,4 @@ Field Name | Data Type | Required | Description
 |activity_id|UUID|Yes|Unique identifier|
 |activity_type|List|Yes|Single value from "Activity Type" codelist|
 |name|String|Yes|Descriptive name|
-|previous_activities|Array|No|Array of UUIDs referring to the zero, one ore more activities within this cycle that directly preceeds this one. |
+|next|Array|No|Array of UUIDs referring to the zero, one ore more activities within this cycle that directly follow this one. |
