@@ -82,3 +82,6 @@ When referenced in the standard, field types refer to the following data types.
 
 
 
+# Stantard Definition
+
+[Structure](/standard)
