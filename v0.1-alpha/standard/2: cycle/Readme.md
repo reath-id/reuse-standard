@@ -27,7 +27,7 @@ Field Name | Data Type | Required | Description
 ---------- | --------- | -------- | -----------
 |cycle_id|UUID|Yes|Unique identifier|
 |name|String|No|Descriptive name|
-|reuse_model|List|No|Type of reuse model. Single value from the "Reuse Model" codelist|
+|reuse_model|List|Yes|Type of reuse model. Single value from the "Reuse Model" codelist|
 |activities|Array|Yes|Array of Activity objects, describing each step in the cycle|
 
 ### Activities
