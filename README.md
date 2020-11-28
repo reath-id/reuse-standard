@@ -1,4 +1,4 @@
-# reuse&#46;id : DRAFT (Alpha) v0.1
+# reuse standard : DRAFT (Alpha) v0.1
 
 > This is a draft (alpha) standard. Please [contact us](https://reath.id/contact) with questions or feedback. We are especially keen to hear from individuals and organisations interested in moving this standard forward.
 

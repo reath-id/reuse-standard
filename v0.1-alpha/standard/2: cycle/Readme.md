@@ -4,7 +4,7 @@ Defines the steps a piece of packaging progresses through in each reuse cycle.
 
 ## Summary
 
-Reuse cycles are unique depending on the asset and the reuse model amongst other variables. Any reuse.id dataset should be fully self describing, including the reuse cycle itself.
+Reuse cycles are unique depending on the asset and the reuse model amongst other variables. Any reuse dataset should be fully self describing, including the reuse cycle itself.
 
 The cycle is made up of "Activities" which mark the movement of the reusable asset through each step in the cycle. 
 
