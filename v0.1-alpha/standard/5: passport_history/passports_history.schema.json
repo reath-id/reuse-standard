@@ -1,0 +1,21 @@
+{
+    "id": "https://reuse-id.org/v1a/org/passport_history.schema.json#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "asset": {
+            "type": "string"
+        },
+        "activity": {
+            "type": "boolean"
+        },
+        "date": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "location": {
+            "$ref": "https://reuse-id.org/v1a/org/location.schema.json#"
+        }
+    },
+    "required": ["asset", "activity", "date"]
+}

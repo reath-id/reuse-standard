@@ -11,7 +11,7 @@ Field Name | Data Type | Required | Description
 |last_activity|UUID|No|Single activity_id for the most recent (within date_range) activity in reuse cycle that this individual asset passed through|
 |last_activity_date|DateTime|No|When most recent activity (within date_range) was tracked|
 |last_activity_location|Object|No|[Location](../5:%20passport_history#location) object of the most recent activity (within date_range)|
-|completed_cycle_count|Decimal|No|Count of the number of times (within date_range) this individual asset has completed the reuse cycle|
+|completed_cycle_count|Number|No|Count of the number of times (within date_range) this individual asset has completed the reuse cycle|
 |other_ref|String|No|Does the asset hold any additional referencing? i.e. batch code, expiration date etc|
 |decommission_reason|String|No|If the asset has been decommissioned, why?|
 

@@ -9,11 +9,14 @@
         "name": {
             "type": "string"
         },
+        "reuse_model": {
+            "type": "string"
+        },
         "activities": {
             "type": "array",
             "uniqueItems": true,
             "items": { "$ref": "https://reuse-id.org/v1a/org/cycle-activities.schema.json#" }
         }
     },
-    "required": ["cycle_id", "activities"]
+    "required": ["cycle_id", "reuse_model", "activities"]
 }

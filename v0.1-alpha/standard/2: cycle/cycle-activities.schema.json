@@ -12,7 +12,7 @@
         "name": {
             "type": "string"
         },
-        "previous_activities": {
+        "next": {
             "type": "array",
             "items": {
                 "type": "string",

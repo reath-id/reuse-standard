@@ -1,0 +1,114 @@
+{
+    "id": "https://reuse-id.org/v1a/org/asset_type.schema.json#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "asset_type_id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "cycle_id": {
+            "type": "string"
+        },
+        "sku": {
+            "type": "string"
+        },
+        "packaging_type": {
+            "type": "string"
+        },
+        "product_category": {
+            "type": "string"
+        },
+        "unit_cost": { "$ref": "#/definitions/money" },
+        "weight": {
+            "type": "number"
+        },
+        "volume": {
+            "type": "number"
+        },
+        "max_height": {
+            "type": "number"
+        },
+        "max_width": {
+            "type": "number"
+        },
+        "max_length": {
+            "type": "number"
+        },
+        "tracker_type": {
+            "type": "string"
+        },
+        "allergens": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "uniqueItems": true
+            }
+        },
+        "certifications": {
+            "type": "string"
+        },
+        "manufacturer": {
+            "type": "string"
+        },
+        "country_of_origin": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 2
+        },
+        "primary_material": {
+            "type": "string"
+        },
+        "primary_material_percentage": {
+            "type": "number"
+        },
+        "auxiliary_material": {
+            "type": "string"
+        },
+        "is_recycled": {
+            "type": "boolean"
+        },
+        "recycled_materials_percentage": {
+            "type": "number"
+        },
+        "recycled_materials_country_of_origin": {
+            "type": "string"
+        },
+        "cleaning_method": {
+            "type": "string"
+        },
+        "cleaning_agent": {
+            "type": "string"
+        },
+        "cleaning_time": {
+            "type": "number"
+        },
+        "cleaning_temperature": {
+            "type": "number"
+        },
+        "next": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "uniqueItems": true
+            }
+        }
+    },
+    "required": ["asset_type_id", "cycle_id", "country_of_origin", "primary_material", "auxiliary_material", "is_recycled", "cleaning_method"],
+    "definitions": {
+        "money": {
+            "type": "object",
+            "properties": {
+                "currency": {
+                    "type": "string",
+                    "minLength": 3,
+                    "maxLength": 3
+                },
+                "amount": {"type": "number"}
+            },
+            "required": ["currency", "amount"]
+        }
+    }
+}

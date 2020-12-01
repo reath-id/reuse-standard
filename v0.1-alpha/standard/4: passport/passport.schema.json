@@ -1,0 +1,33 @@
+{
+    "id": "https://reuse-id.org/v1a/org/passport.schema.json#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "asset_id": {
+            "type": "string"
+        },
+        "in_reuse": {
+            "type": "boolean"
+        },
+        "last_activity": {
+            "type": "string"
+        },
+        "last_activity_date": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "last_activity_location": {
+            "$ref": "https://reuse-id.org/v1a/org/location.schema.json#"
+        },
+        "completed_cycle_count": {
+            "type": "number"
+        },
+        "other_ref": {
+            "type": "string"
+        },
+        "decommission_reason": {
+            "type": "string"
+        }
+    },
+    "required": ["asset_id", "in_reuse"]
+}
