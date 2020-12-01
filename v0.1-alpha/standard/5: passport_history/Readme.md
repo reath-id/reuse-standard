@@ -26,4 +26,4 @@ coordinates|Array|No|[lon, lat] using the coordinate reference system as per [Ge
 
 # DRAFT (Alpha) v0.1 
 
-[Intro](../../) | [Technical Definition](../) | [Standard](standard)
+[Intro](../../) - [Technical Definition](../) - [Standard](standard)

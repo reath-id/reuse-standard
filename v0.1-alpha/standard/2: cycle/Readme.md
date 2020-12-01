@@ -43,4 +43,4 @@ Field Name | Data Type | Required | Description
 
 # DRAFT (Alpha) v0.1 
 
-[Intro](../../) | [Technical Definition](../) | [Standard](standard)
+[Intro](../../) - [Technical Definition](../) - [Standard](standard)
