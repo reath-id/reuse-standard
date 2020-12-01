@@ -1,4 +1,4 @@
-# reuse standard : DRAFT (Alpha) v0.1
+# DRAFT (Alpha) v0.1
 
 > This is a draft (alpha) standard. Please [contact us](https://docs.google.com/forms/d/e/1FAIpQLSf7BN-I_-sZxhkgcVALyEztE2KFRw-o-jPCWNkLExjRIYRhGQ/viewform?usp=sf_link) with questions or feedback. We are especially keen to hear from individuals and organisations interested in moving this standard forward.
 
@@ -50,10 +50,11 @@ This draft Open Standard was researched and designed by [**Reath**](https://reat
 
 Support came from [*Innovate UK*](https://www.ukri.org/councils/innovate-uk/)
 
+---
 
-# Technical Definition
+# DRAFT (Alpha) v0.1
 
-[DRAFT (Alpha) v0.1 : Technical Definition](v0.1-alpha)
+[Technical Definition](v0.1-alpha)
 
 
 

@@ -19,3 +19,11 @@ Field Name | Data Type | Required | Description
 ---------- | --------- | -------- | -----------
 location_name|String|No|Business location (e.g. "warehouse 1")
 coordinates|Array|No|[lon, lat] using the coordinate reference system as per [GeoJSON Open Standard](https://tools.ietf.org/html/rfc7946#page-12)
+
+
+
+---
+
+# DRAFT (Alpha) v0.1 
+
+[Intro](../../) | [Technical Definition](../) | [Standard](standard)

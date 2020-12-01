@@ -1,4 +1,4 @@
-# DRAFT (Alpha) v0.1 : Technical Definition
+# Technical Definition
 
 > This is a draft (alpha) standard. Please [contact us](https://reath.id/contact) with questions or feedback. We are especially keen to hear from individuals and organisations interested in moving this standard forward.
 
@@ -80,8 +80,8 @@ When referenced in the standard, field types refer to the following data types.
   </tr>
 </table>
 
+---
 
+# DRAFT (Alpha) v0.1 
 
-# Standard Definition
-
-[Structure](standard)
+[Intro](../) | [Standard](standard)
