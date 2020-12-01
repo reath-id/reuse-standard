@@ -53,7 +53,7 @@ Support came from [*Innovate UK*](https://www.ukri.org/councils/innovate-uk/)
 
 # Technical Definition
 
-[DRAFT (Alpha) v0.1 : Technical Definition](/v0.1-alpha)
+[DRAFT (Alpha) v0.1 : Technical Definition](v0.1-alpha)
 
 
 
