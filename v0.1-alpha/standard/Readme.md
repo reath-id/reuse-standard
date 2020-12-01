@@ -25,4 +25,4 @@ end|DateTime|Yes|When the date range ends
 
 # DRAFT (Alpha) v0.1 
 
-[Intro](../) - [Standard](standard)
+[Intro](../vo.1-alpha) - [Standard](../standard)
