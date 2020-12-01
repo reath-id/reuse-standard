@@ -50,11 +50,6 @@ This draft Open Standard was researched and designed by [**Reath**](https://reat
 
 Support came from [*Innovate UK*](https://www.ukri.org/councils/innovate-uk/)
 
----
-
-# DRAFT (Alpha) v0.1
-
-[Technical Definition](v0.1-alpha)
 
 
 

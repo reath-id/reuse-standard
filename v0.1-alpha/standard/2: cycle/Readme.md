@@ -38,9 +38,3 @@ Field Name | Data Type | Required | Description
 |activity_type|List|Yes|Single value from "Activity Type" codelist|
 |name|String|Yes|Descriptive name|
 |next|Array|No|Array of UUIDs referring to the zero, one or more activities within this cycle that directly follow this one. |
-
----
-
-# DRAFT (Alpha) v0.1 
-
-[Intro](../../) - [Technical Definition](../) - [Standard](standard)

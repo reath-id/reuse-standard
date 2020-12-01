@@ -20,9 +20,3 @@ Field Name | Data Type | Required | Description
 ---------- | --------- | -------- | -----------
 start|DateTime|Yes|When the date range starts
 end|DateTime|Yes|When the date range ends
-
----
-
-# DRAFT (Alpha) v0.1 
-
-[Intro](../vo.1-alpha) - [Standard](../standard)
