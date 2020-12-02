@@ -7,7 +7,7 @@
             "type": "string"
         },
         "activity": {
-            "type": "boolean"
+            "type": "string"
         },
         "date": {
             "type": "string",

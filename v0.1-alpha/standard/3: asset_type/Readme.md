@@ -36,7 +36,7 @@ Field Name | Data Type | Required | Description
 |auxiliary_material|List|Yes|The main material of an additional component, such as a bottle cap. Single value from ["Materials" codelist](../codelists)|
 |is_recycled|Boolean|Yes|Is the asset made from recycled material? (For environmental reporting)|
 |recycled_materials_percentage|Number|No|What % is made from recycled material? (For environmental reporting)|
-|recycled_materials_country_of_origin|List|No|Where the recycled material is sourced (for environmental reporting). Single Country code from [ISO 3166-1:2020(en)](https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en)|
+|recycled_materials_country_of_origin|List|No|Where the recycled material is sourced (for environmental reporting). Single Country code from [ISO 3166-1:2020(en)](https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en), see list [here](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_code)|
 |cleaning_method|List|Yes|What type of cleaning is needed for this asset? Single value from ["Cleaning methods" codelist](../codelists)|
 |cleaning_agent|String|No|What surfactant is used when cleaning this asset? Publishers should share a codelist reference to promote consistency and clarity|
 |cleaning_time|Number|No|How long does the cleaning cycle take? (in minutes)|
