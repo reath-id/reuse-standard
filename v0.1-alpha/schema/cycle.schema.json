@@ -1,5 +1,5 @@
 {
-    "id": "https://reuse-id.org/v1a/org/cycle.schema.json#",
+    "id": "https://reuse-standard.org/v0.1-alpha/schema/cycle.schema.json#",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "type": "object",
     "properties": {
@@ -15,7 +15,7 @@
         "activities": {
             "type": "array",
             "uniqueItems": true,
-            "items": { "$ref": "https://reuse-id.org/v1a/org/cycle-activities.schema.json#" }
+            "items": { "$ref": "https://reuse-standard.org/v0.1-alpha/schema/cycle-activities.schema.json#" }
         }
     },
     "required": ["cycle_id", "reuse_model", "activities"]
