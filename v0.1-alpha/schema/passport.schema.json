@@ -4,13 +4,15 @@
     "type": "object",
     "properties": {
         "asset_id": {
-            "type": "string"
+            "type": "string",
+            "pattern": "[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12}"
         },
         "in_reuse": {
             "type": "boolean"
         },
         "last_activity": {
-            "type": "string"
+            "type": "string",
+            "pattern": "[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12}"
         },
         "last_activity_date": {
             "type": "string",

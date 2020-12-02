@@ -4,7 +4,8 @@
     "type": "object",
     "properties": {
         "activity_id": {
-            "type": "string"
+            "type": "string",
+            "pattern": "[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12}"
         },
         "activity_type": {
             "type": "string"
@@ -16,7 +17,8 @@
             "type": "array",
             "items": {
                 "type": "string",
-                "uniqueItems": true
+                "uniqueItems": true,
+                "pattern": "[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12}"
             }
         }
     },

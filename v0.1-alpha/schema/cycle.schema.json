@@ -4,7 +4,8 @@
     "type": "object",
     "properties": {
         "cycle_id": {
-            "type": "string"
+            "type": "string",
+            "pattern": "[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12}"
         },
         "name": {
             "type": "string"

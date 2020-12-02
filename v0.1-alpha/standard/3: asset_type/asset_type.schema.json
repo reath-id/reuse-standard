@@ -4,7 +4,8 @@
     "type": "object",
     "properties": {
         "asset_type_id": {
-            "type": "string"
+            "type": "string",
+            "pattern": "[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12}"
         },
         "name": {
             "type": "string"
@@ -92,13 +93,6 @@
         },
         "cleaning_temperature": {
             "type": "number"
-        },
-        "next": {
-            "type": "array",
-            "items": {
-                "type": "string",
-                "uniqueItems": true
-            }
         }
     },
     "required": ["asset_type_id", "cycle_id", "country_of_origin", "primary_material", "is_recycled", "cleaning_method"],
