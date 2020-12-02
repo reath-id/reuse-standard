@@ -48,7 +48,7 @@ When referenced in the standard, field types refer to the following data types.
   </tr>
   <tr>
     <td>List</td>
-    <td>Alphanumeric string data, limited to specific acceptable values. The acceptable values are defined in relevant internal code list or in external standards or recognised code lists.</td>
+    <td>Alphanumeric string data, limited to specific acceptable values. The acceptable values are defined in (relevant internal code list)[standard/codelists] or in external standards or recognised code lists.</td>
   </tr>
   <tr>
     <td>UUID</td>
