@@ -1,0 +1,119 @@
+{
+    "$schema": "https://reuse-standard.org/v0.1-alpha/schema/reuse.schema.json#",
+    "org": {
+        "name": "Endzone.io Ltd t/a HappyPorch",
+        "org_id": "GB-COH-SC492581"
+    },
+    "date": "2020-12-01T19:25:43.511Z",
+    "cycles": [
+        {
+            "cycle_id": "7b7628a8-09a6-4913-bbb6-67e2ef19aed2",
+          	"reuse_model": "return_home",
+            "activities": [
+                {
+                    "activity_id": "ecfcfa57-89fd-48ee-aaa8-6b74ddcd59cb",
+                    "activity_type": "start_step",
+                    "name": "Filled",
+                    "next" : ["1028b545-b5f5-4e3c-9dbc-64561ce91f1b"]
+                },
+                {
+                    "activity_id": "1028b545-b5f5-4e3c-9dbc-64561ce91f1b",
+                    "activity_type": "step",
+                    "name": "Delivered",
+                    "next" : ["5d207fc1-761e-4c1b-baf3-75e6ffbf7f1f"]
+                },
+                {
+                    "activity_id": "5d207fc1-761e-4c1b-baf3-75e6ffbf7f1f",
+                    "activity_type": "step",
+                    "name": "Returned",
+                    "next" : ["d922c237-7041-4c01-8272-161941698900"]
+                },
+                {
+                    "activity_id": "d922c237-7041-4c01-8272-161941698900",
+                    "activity_type": "clean_step",
+                    "name": "Cleaned",
+                    "next" : ["ecfcfa57-89fd-48ee-aaa8-6b74ddcd59cb"]
+                }
+            ]
+        }
+    ],
+    "asset_types": [
+        {
+            "asset_type_id": "b88db315-0e61-489a-be89-9e4a6fa62eb4",
+            "name": "bottle",
+            "cycle_id": ["7b7628a8-09a6-4913-bbb6-67e2ef19aed2"],
+            "packaging_type": "bottle",
+            "unit_cost": {
+                "currency": "GBP",
+                "value": "22.22"
+            },
+            "country_of_origin": "GB",
+            "primary_material": "glass",
+            "auxiliary_material": "plastic",
+            "is_recycled": "false",
+            "cleaning_method": "washing"
+        }
+    ],
+    "date_range": {
+        "start": "2020-01-01T00:00:00.000Z",
+        "end": "2020-12-01T19:25:43.511Z"
+    },
+    "passports": [
+        {
+            "asset_id": "1598910f-0981-4065-96a8-6e7a0ff4fac4",
+            "in_reuse": true
+        },
+        {
+            "asset_id": "9a29c6a6-10ad-4c25-a5bf-1dfac59aa675",
+            "in_reuse": true,
+            "last_activity": "ecfcfa57-89fd-48ee-aaa8-6b74ddcd59cb",
+            "last_activity_date": "2020-11-01T19:11:34.111Z",
+            "last_activity_location": {
+                "name": "warehouse 1"
+            },
+            "completed_cycle_count": 2
+        },
+        {
+            "asset_id": "f4ae39f9-2688-4056-b65c-5841a30b9e7d",
+            "in_reuse": true,
+            "last_activity": "5d207fc1-761e-4c1b-baf3-75e6ffbf7f1f",
+            "last_activity_date": "2020-10-01T07:11:34.111Z",
+            "last_activity_location": {
+                "name": "retail 1"
+            }
+        }
+    ],
+    "passport_history": [
+        {
+            "asset": "9a29c6a6-10ad-4c25-a5bf-1dfac59aa675",
+            "activity": "ecfcfa57-89fd-48ee-aaa8-6b74ddcd59cb",
+            "date": "2020-11-01T19:11:34.111Z",
+            "location": {
+                "name": "warehouse 1"
+            }
+        },
+        {
+            "asset": "9a29c6a6-10ad-4c25-a5bf-1dfac59aa675",
+            "activity": "d922c237-7041-4c01-8272-161941698900",
+            "date": "2020-10-01T19:11:34.111Z"
+        },
+        {
+            "asset": "9a29c6a6-10ad-4c25-a5bf-1dfac59aa675",
+            "activity": "5d207fc1-761e-4c1b-baf3-75e6ffbf7f1f",
+            "date": "2020-09-01T19:11:34.111Z"
+        },
+        {
+            "asset": "9a29c6a6-10ad-4c25-a5bf-1dfac59aa675",
+            "activity": "1028b545-b5f5-4e3c-9dbc-64561ce91f1b",
+            "date": "2020-09-01T19:11:34.111Z"
+        },
+        {
+            "asset": "9a29c6a6-10ad-4c25-a5bf-1dfac59aa675",
+            "activity": "5d207fc1-761e-4c1b-baf3-75e6ffbf7f1f",
+            "date": "2020-10-01T07:11:34.111Z",
+            "location": {
+                "name": "retail 1"
+            }
+        }
+    ]
+}
