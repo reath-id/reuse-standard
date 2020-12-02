@@ -10,7 +10,12 @@
             "type": "string"
         },
         "cycle_id": {
-            "type": "string"
+            "type": "array",
+            "items": {
+                "type": "string",
+                "uniqueItems": true,
+                "minItems": 1
+            }
         },
         "sku": {
             "type": "string"

@@ -15,7 +15,7 @@ Field Name | Data Type | Required | Description
 ---------- | --------- | -------- | -----------
 |asset_type_id|UUID|Yes|Unique identifier|
 |name|String|No|Descriptive name|
-|cycle_id|UUID|Yes|Reference to the [reuse cycle](../cycle) that this asset type moves through|
+|cycle_id|Array|Yes|Reference to one or more [reuse cycles](../cycle) that this asset type moves through|
 |sku|String|No|Product SKU (should match [org](../org)'s inventory records)|
 |packaging_type|List|No|Single value from "Packaging Type" codelist|
 |product_category|List|No|What category would the overall product fall into? (e.g. for packaging this is overall category the consumable product be sold in). Single value from [GS1 GPC - Class](https://www.gs1.org/services/gpc-browser)|
