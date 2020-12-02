@@ -1,12 +1,13 @@
 {
     "org": {
         "name": "Endzone.io Ltd t/a HappyPorch",
-        "id": "GB-COH-SC492581"
+        "org_id": "GB-COH-SC492581"
     },
-    "date": "",
+    "date": "2020-12-01T18:25:43.511Z",
     "cycles": [
         {
             "cycle_id": "39d843ac-2e6c-46c5-8e43-249066d5d059",
+          	"reuse_model": "refill_go",
             "activities": [
                 {
                     "activity_id": "1a774e5a-cd1a-40d4-97b7-f513fd4112b3",

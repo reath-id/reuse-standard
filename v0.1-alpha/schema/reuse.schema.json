@@ -11,7 +11,7 @@
             "format": "date-time"
         },
         "cycles":{
-            "type": "object",
+            "type": "array",
             "uniqueItems": true,
             "items": { "$ref": "https://reuse-standard.org/v0.1-alpha/schema/cycle.schema.json#" }
         },
@@ -44,4 +44,4 @@
             "required": ["date_start", "date_end"]
         }
     }
-}
+} 
