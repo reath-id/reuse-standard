@@ -1,4 +1,5 @@
 {
+    "$schema": "https://reuse-standard.org/v0.1-alpha/schema/reuse.schema.json#",
     "org": {
         "name": "Endzone.io Ltd t/a HappyPorch",
         "org_id": "GB-COH-SC492581"
@@ -6,43 +7,32 @@
     "date": "2020-12-01T18:25:43.511Z",
     "cycles": [
         {
-            "cycle_id": "39d843ac-2e6c-46c5-8e43-249066d5d059",
-          	"reuse_model": "refill_go",
+            "cycle_id": "7b7628a8-09a6-4913-bbb6-67e2ef19aed2",
+          	"reuse_model": "return_home",
             "activities": [
                 {
-                    "activity_id": "1a774e5a-cd1a-40d4-97b7-f513fd4112b3",
-                    "activity_type": "step",
-                    "name": "Purchased",
-                    "next" : ["a2cc56d3-1223-4bca-bc21-f0a35109d166"]
-                },
-                {
-                    "activity_id": "a2cc56d3-1223-4bca-bc21-f0a35109d166",
+                    "activity_id": "ecfcfa57-89fd-48ee-aaa8-6b74ddcd59cb",
                     "activity_type": "start_step",
                     "name": "Filled",
-                    "next" : ["acc46828-10cd-4066-8700-011dc35df8ff"]
+                    "next" : ["1028b545-b5f5-4e3c-9dbc-64561ce91f1b"]
                 },
                 {
-                    "activity_id": "acc46828-10cd-4066-8700-011dc35df8ff",
+                    "activity_id": "1028b545-b5f5-4e3c-9dbc-64561ce91f1b",
                     "activity_type": "step",
                     "name": "Delivered",
-                    "next" : ["2b91eb48-b33f-400b-9b54-88b338f2cb9d"]
+                    "next" : ["5d207fc1-761e-4c1b-baf3-75e6ffbf7f1f"]
                 },
                 {
-                    "activity_id": "2b91eb48-b33f-400b-9b54-88b338f2cb9d",
+                    "activity_id": "5d207fc1-761e-4c1b-baf3-75e6ffbf7f1f",
                     "activity_type": "step",
                     "name": "Returned",
-                    "next" : ["441ed3d0-cfac-48d9-a9ef-571594d8e400"]
+                    "next" : ["d922c237-7041-4c01-8272-161941698900"]
                 },
                 {
-                    "activity_id": "441ed3d0-cfac-48d9-a9ef-571594d8e400",
+                    "activity_id": "d922c237-7041-4c01-8272-161941698900",
                     "activity_type": "clean_step",
                     "name": "Cleaned",
-                    "next" : ["acc46828-10cd-4066-8700-011dc35df8ff", "bfe19346-5463-4f4c-83a7-88ba0f1e5531"]
-                },
-                {
-                    "activity_id": "bfe19346-5463-4f4c-83a7-88ba0f1e5531",
-                    "activity_type": "step",
-                    "name": "Recycled"
+                    "next" : ["ecfcfa57-89fd-48ee-aaa8-6b74ddcd59cb"]
                 }
             ]
         }
