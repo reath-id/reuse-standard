@@ -11,7 +11,7 @@
  - Description of the "state" of individual resuable assets (e.g. packaging) at any point in time
  - Describing the detailed "history" of individual resuable assets across any time period
 
- ## Data for individual reusable items: Digital Passports
+## Data for individual reusable items: Digital Passports
 
 A Digital Passport is the digital vehicle for storing data that has been captured in a standardised way, i.e. via a data standard. Think of it like your own passport collecting location information about you as you travel, but instead of representing a person, a Digital Passport represents an individual piece of packaging and its journey.
 
