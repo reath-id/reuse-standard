@@ -1,6 +1,6 @@
 # Passport
 
-Describes the state of all individual reusuable assets at specific point in time.
+Describes the state of all individual reusable assets at specific point in time.
 
 ## Fields
 
