@@ -13,6 +13,8 @@ Field Name | Data Type | Required | Description
 |date|DateTime|Yes|When activity was tracked|
 |location|Object|No|[Location](../5:%20passport_history#location) where activity was tracked. This may be a geo location *and/or* business location (e.g. "warehouse 1")|
 
+[Schema](../../schema/passport_history.schema.json)
+
 ### Location
 
 Field Name | Data Type | Required | Description
@@ -21,4 +23,4 @@ location_name|String|No|Business location (e.g. "warehouse 1")
 coordinates|Array|No|[lon, lat] using the coordinate reference system as per [GeoJSON Open Standard](https://tools.ietf.org/html/rfc7946#page-12)
 
 
-[Schema](../../schema/passport_history.schema.json)
+[Schema](../../schema/location.schema.json)
