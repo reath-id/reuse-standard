@@ -15,3 +15,5 @@ Field Name | Data Type | Required | Description
 |other_ref|String|No|Does the asset hold any additional referencing? i.e. batch code, expiration date etc|
 |decommission_reason|String|No|If the asset has been decommissioned, why?|
 
+
+[Schema](../../schema/passport.schema.json)

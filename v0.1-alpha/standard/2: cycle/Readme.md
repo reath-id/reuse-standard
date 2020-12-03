@@ -30,6 +30,8 @@ Field Name | Data Type | Required | Description
 |reuse_model|List|Yes|Type of reuse model. Single value from the "Reuse Model" codelist|
 |activities|Array|Yes|Array of Activity objects, describing each step in the cycle|
 
+[Schema](../../schema/cycle.schema.json)
+
 ### Activities
 
 Field Name | Data Type | Required | Description
@@ -38,3 +40,6 @@ Field Name | Data Type | Required | Description
 |activity_type|List|Yes|Single value from "Activity Type" codelist|
 |name|String|Yes|Descriptive name|
 |next|Array|No|Array of UUIDs referring to the zero, one or more activities within this cycle that directly follow this one. |
+
+
+[Schema](../../schema/cycle-activities.schema.json)

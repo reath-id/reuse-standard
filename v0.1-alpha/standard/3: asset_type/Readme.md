@@ -49,3 +49,5 @@ Field Name | Data Type | Required | Description
 |currency|List|Yes|Alphabetic Currency code from [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html)|
 |amount|Number|Yes|Value amount|
 
+
+[Schema](../../schema/asset_type.schema.json)
