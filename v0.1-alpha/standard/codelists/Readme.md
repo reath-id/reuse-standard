@@ -2,7 +2,7 @@
 
 # Summary
 
-Some fields refer to codelists, to limit and standardize the possible values of the fields, in order to promote data interoperability.
+Some fields refer to codelists, to limit and standardise the possible values of the fields, in order to promote data interoperability.
 
 Codelists can either be open or closed. Closed codelists are intended to be comprehensive. Open codelists are intended to be representative, but not comprehensive.
 
