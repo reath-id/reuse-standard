@@ -32,13 +32,13 @@ This draft standard defines the "what" of the reuse data for the purposes of sha
 
 - How the data is made available (e.g. API endpoints or direct download of data files etc).
 - How the data is stored.
-- How physcial reusable assets are tagged and tracked. The standard enables, but does not proscribe, tagging each individual asset (e.g. with QR Codes, NFC or RFID) and tracking it through the resuse cycle.
+- How physcial reusable assets are tagged and tracked. The standard enables, but does not proscribe, tagging each individual asset (e.g. with QR Codes, NFC or RFID) and tracking it through the reuse cycle.
 
 ## Open vs Closed data
 
 The standard itself is Open for the purposes of shared understanding. The standard does not *require* that any actual data sets be made "Open" and available to all.  
 
-The standard does enable organisations to choose which data to share publically (if any) and also enables more detailed data to be shared only with trusted parties or regulators.
+The standard does enable organisations to choose which data to share publicly (if any) and also enables more detailed data to be shared only with trusted parties or regulators.
 
 ## Who
 
