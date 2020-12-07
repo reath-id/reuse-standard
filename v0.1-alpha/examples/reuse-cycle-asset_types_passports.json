@@ -66,9 +66,9 @@
         {
             "asset_id": "9a29c6a6-10ad-4c25-a5bf-1dfac59aa675",
             "in_reuse": true,
-            "last_activity": "ecfcfa57-89fd-48ee-aaa8-6b74ddcd59cb",
-            "last_activity_date": "2020-11-01T19:11:34.111Z",
-            "last_activity_location": {
+            "latest_activity": "ecfcfa57-89fd-48ee-aaa8-6b74ddcd59cb",
+            "latest_activity_date": "2020-11-01T19:11:34.111Z",
+            "latest_activity_location": {
                 "name": "warehouse 1"
             },
             "completed_cycle_count": 2
@@ -76,9 +76,9 @@
         {
             "asset_id": "f4ae39f9-2688-4056-b65c-5841a30b9e7d",
             "in_reuse": true,
-            "last_activity": "5d207fc1-761e-4c1b-baf3-75e6ffbf7f1f",
-            "last_activity_date": "2020-10-01T07:11:34.111Z",
-            "last_activity_location": {
+            "latest_activity": "5d207fc1-761e-4c1b-baf3-75e6ffbf7f1f",
+            "latest_activity_date": "2020-10-01T07:11:34.111Z",
+            "latest_activity_location": {
                 "name": "retail 1"
             },
             "completed_cycle_count": 6

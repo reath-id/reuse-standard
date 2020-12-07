@@ -10,15 +10,15 @@
         "in_reuse": {
             "type": "boolean"
         },
-        "last_activity": {
+        "latest_activity": {
             "type": "string",
             "pattern": "[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12}"
         },
-        "last_activity_date": {
+        "latest_activity_date": {
             "type": "string",
             "format": "date-time"
         },
-        "last_activity_location": {
+        "latest_activity_location": {
             "$ref": "https://reuse-standard.org/v0.1-alpha/schema/location.schema.json#"
         },
         "completed_cycle_count": {
