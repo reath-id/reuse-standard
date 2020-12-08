@@ -1,0 +1,23 @@
+{
+    "id": "https://reuse-standard.org/v0.1-alpha/schema/cycle.schema.json#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "cycle_id": {
+            "type": "string",
+            "pattern": "[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12}"
+        },
+        "name": {
+            "type": "string"
+        },
+        "reuse_model": {
+            "type": "string"
+        },
+        "activities": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": { "$ref": "https://reuse-standard.org/v0.1-alpha/schema/cycle-activities.schema.json#" }
+        }
+    },
+    "required": ["cycle_id", "reuse_model", "activities"]
+}
