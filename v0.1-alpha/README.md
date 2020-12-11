@@ -36,15 +36,15 @@ When referenced in the standard, field types refer to the following data types.
 
 Field Type | Description
 ---------- | -----------
-|String|Alphanumeric data, appropriately escaped and encoded for inclusion in a JSON document. 
-|Number|Numeric value, with either zero or two decimal points (eg: 12.20 or 7.00). 
-|List|Alphanumeric string data, limited to specific acceptable values. The acceptable values are defined in the relevant internal [code list](./standard/codelists) or in external standards or recognised code lists.
-|UUID|A globally unique identification string using "RFC 4122" (https://www.ietf.org/rfc/rfc4122.txt, see also http://guid.one/).
-|Numeric|A numeric value, either as an integer or a  floating point number.
-|DateTime|An RFC 3339 compliant date string, including date, time, and time zone.
-|URL|A String, representing a valid URL including protocol, host, and if applicable, a path and query string.
-|Boolean|A boolean string of either true, or false.
-|Object|A valid JSON object, representing a collection of additional values that are grouped together.
-|Array|A valid JSON array, representing a collection of objects.
+String|Alphanumeric data, appropriately escaped and encoded for inclusion in a JSON document. 
+Number|Numeric value, with either zero or two decimal points (eg: 12.20 or 7.00). 
+List|Alphanumeric string data, limited to specific acceptable values. The acceptable values are defined in the relevant internal [code list](./standard/codelists) or in external standards or recognised code lists.
+UUID|A globally unique identification string using "RFC 4122" (https://www.ietf.org/rfc/rfc4122.txt, see also http://guid.one/).
+Numeric|A numeric value, either as an integer or a  floating point number.
+DateTime|An RFC 3339 compliant date string, including date, time, and time zone.
+URL|A String, representing a valid URL including protocol, host, and if applicable, a path and query string.
+Boolean|A boolean string of either true, or false.
+Object|A valid JSON object, representing a collection of additional values that are grouped together.
+Array|A valid JSON array, representing a collection of objects.
 
 
