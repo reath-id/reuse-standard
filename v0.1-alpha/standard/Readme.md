@@ -13,6 +13,7 @@ date_range|Object|No|Optional date range for the Passport and Passport History d
 [passports](./4:%20passport)|Array|No|Describes the state of all individual reusable assets at specific point in time (either date_range end or date). Array of [passport objects](./4:%20passport)
 [passport_history](./5:%20passport_history)|Array|No|Record of all Activities of a reuse cycle that each individual reusable asset has been through, within date_range start and end dates. Array of [passport_history objects](./5:%20passport_history)
 
+[Schema](../schema/reuse.schema.json)
 
 ## Date Range
 

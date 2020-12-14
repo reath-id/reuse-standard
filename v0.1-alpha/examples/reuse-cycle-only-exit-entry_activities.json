@@ -38,7 +38,7 @@
                     "activity_id": "441ed3d0-cfac-48d9-a9ef-571594d8e400",
                     "activity_type": "clean_step",
                     "name": "Cleaned",
-                    "next" : ["acc46828-10cd-4066-8700-011dc35df8ff", "bfe19346-5463-4f4c-83a7-88ba0f1e5531"]
+                    "next" : ["a2cc56d3-1223-4bca-bc21-f0a35109d166", "bfe19346-5463-4f4c-83a7-88ba0f1e5531"]
                 },
                 {
                     "activity_id": "bfe19346-5463-4f4c-83a7-88ba0f1e5531",
