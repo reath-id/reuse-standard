@@ -1,5 +1,5 @@
 {
-    "$schema": "https://reuse-standard.org/v0.1-alpha/schema/reuse.schema.json#",
+    "$schema": "https://reuse-standard.org/v0.1-alpha2/schema/reuse.schema.json#",
     "org": {
         "name": "Endzone.io Ltd t/a HappyPorch",
         "org_id": "GB-COH-SC492581"

@@ -1,5 +1,5 @@
 {
-    "$schema": "https://reuse-standard.org/v0.1-alpha/schema/reuse.schema.json#",
+    "$schema": "https://reuse-standard.org/v0.1-alpha2/schema/reuse.schema.json#",
     "org": {
         "name": "Endzone.io Ltd t/a HappyPorch",
         "org_id": "GB-COH-SC492581"
@@ -52,6 +52,36 @@
             "auxiliary_material": "plastic",
             "is_recycled": "false",
             "cleaning_method": "washing"
+        }
+    ],
+    "date_range": {
+        "start": "2020-01-01T00:00:00.000Z",
+        "end": "2020-12-01T19:25:43.511Z"
+    },
+    "passports": [
+        {
+            "asset_id": "1598910f-0981-4065-96a8-6e7a0ff4fac4",
+            "in_reuse": true
+        },
+        {
+            "asset_id": "9a29c6a6-10ad-4c25-a5bf-1dfac59aa675",
+            "in_reuse": true,
+            "latest_activity": "ecfcfa57-89fd-48ee-aaa8-6b74ddcd59cb",
+            "latest_activity_date": "2020-11-01T19:11:34.111Z",
+            "latest_activity_location": {
+                "name": "warehouse 1"
+            },
+            "completed_cycle_count": 2
+        },
+        {
+            "asset_id": "f4ae39f9-2688-4056-b65c-5841a30b9e7d",
+            "in_reuse": true,
+            "latest_activity": "5d207fc1-761e-4c1b-baf3-75e6ffbf7f1f",
+            "latest_activity_date": "2020-10-01T07:11:34.111Z",
+            "latest_activity_location": {
+                "name": "retail 1"
+            },
+            "completed_cycle_count": 6
         }
     ]
 }

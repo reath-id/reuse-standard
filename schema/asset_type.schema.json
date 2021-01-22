@@ -1,5 +1,5 @@
 {
-    "id": "https://reuse-standard.org/v0.1-alpha/schema/asset_type.schema.json#",
+    "id": "https://reuse-standard.org/v0.1-alpha2/schema/asset_type.schema.json#",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "type": "object",
     "properties": {
