@@ -1,6 +1,6 @@
-# DRAFT (Alpha) v0.1
+# Reuse Standard v0.1-alpha2
 
-> This is a draft (alpha) standard. Please [contact us](https://docs.google.com/forms/d/e/1FAIpQLSf7BN-I_-sZxhkgcVALyEztE2KFRw-o-jPCWNkLExjRIYRhGQ/viewform?usp=sf_link) with questions or feedback. We are especially keen to hear from individuals and organisations interested in using moving this standard forward.
+> This is the second draft (alpha) of this standard. Please [contact us](https://docs.google.com/forms/d/e/1FAIpQLSf7BN-I_-sZxhkgcVALyEztE2KFRw-o-jPCWNkLExjRIYRhGQ/viewform?usp=sf_link) with questions or feedback. We are especially keen to hear from individuals and organisations interested in using this standard.
 
 ## Why a reuse Open Data Standard?
 
