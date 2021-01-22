@@ -18,7 +18,7 @@ name|String|No|Descriptive name|
 cycle_id|Array|Yes|Reference to one or more [reuse cycles](../cycle) that this asset type moves through|
 sku|String|No|Product SKU (should match [org](../org)'s inventory records)|
 packaging_type|List|No|Single value from ["Packaging Type" codelist](../codelists)|
-product_category|List|No|What category would the overall product fall into? (e.g. for packaging this is overall category the consumable product be sold in). Single value from [GS1 GPC - Class](https://www.gs1.org/services/gpc-browser)|
+product_category|List|No|What category would the overall product fall into? (e.g. for packaging this is overall category the consumable product be sold in). Single value from [GS1 GPC - Family Code](https://www.gs1.org/services/gpc-browser)|
 industry|List|No|What industry is the asset servicing? Single value from [ICB Subsector code list](https://www.ftserussell.com/data/industry-classification-benchmark-icb)|
 unit_cost|Object|No|Cost per unit of the asset type, as a [money](../3:%20asset_type#money) object|
 weight|Number|No|Weight of the empty asset (in grams)|
