@@ -40,6 +40,10 @@ The standard itself is Open for the purposes of shared understanding. The standa
 
 The standard does enable organisations to choose which data to share publicly (if any) and also enables more detailed data to be shared only with trusted parties or regulators.
 
+
+## Versioning and Update Process
+As the reuse space continues to develop and evolve, updates to the Standard will be necessary to ensure it remains relevant to both current and prospective users. [This process is defined here](./process)
+
 ## Who
 
 This draft Open Standard was researched and designed by [**Reath**](https://reath.id/) in collaboration with:
