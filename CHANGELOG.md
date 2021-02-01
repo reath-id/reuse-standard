@@ -12,6 +12,7 @@ _Release Date : not yet released_
 
 * Other Changes
     * Improving linking to codelists in definition files
+    * Added "Process" description of how standard is updated
 
 
 ## Current Version : v0.1-alpha
