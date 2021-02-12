@@ -33,7 +33,7 @@ manufacturer|String|No|Name of supplier|
 country_of_origin|List|Yes|Where the asset was manufactured. Single Country alpha-2 code from [ISO 3166-1:2020(en)](https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en)|
 primary_material|List|Yes|What is majority of the asset made of? Single value from ["Materials" codelist](../codelists)|
 primary_material_percentage|Number|No|What percentage of the asset is the majority material?|
-auxiliary_material|List|Yes|The main material of an additional component, such as a bottle cap. Single value from ["Materials" codelist](../codelists)|
+auxiliary_material|List|No|The main material of an additional component, such as a bottle cap. Single value from ["Materials" codelist](../codelists)|
 is_recycled|Boolean|Yes|Is the asset made from recycled material? (For environmental reporting)|
 recycled_materials_percentage|Number|No|What % is made from recycled material? (For environmental reporting)|
 recycled_materials_country_of_origin|List|No|Where the recycled material is sourced (for environmental reporting). Single Country alpha-2 code from [ISO 3166-1:2020(en)](https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en), see list [here](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_code)|

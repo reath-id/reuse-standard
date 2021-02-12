@@ -12,6 +12,7 @@ _Release Date : not yet released_
     * Passport : Add asset_type reference
 
 * Other Changes
+    * Change auxiliary_material on Asset Type to not required
     * Improving linking to codelists in definition files
     * Added "Process" description of how standard is updated
 
