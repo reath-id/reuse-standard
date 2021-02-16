@@ -1,7 +1,7 @@
 # Reuse Standard : Change Log
 
-### Next Version:  v0.1-alpha2
-_Release Date : not yet released_
+### Current Version : v0.1-alpha2
+_Release Date : 16 Feb 2021_
 
 * Breaking Changes 
     * Remove values from Packaging type field codelist
@@ -18,6 +18,6 @@ _Release Date : not yet released_
     * Added "Process" description of how standard is updated
 
 
-## Current Version : v0.1-alpha
+## v0.1-alpha
 _Release Date : 12 Dec 2020_
 
