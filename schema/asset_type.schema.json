@@ -21,7 +21,7 @@
         "sku": {
             "type": "string"
         },
-        "packaging_type": {
+        "reusable_asset_type": {
             "type": "string"
         },
         "product_category": {

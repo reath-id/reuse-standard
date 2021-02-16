@@ -9,6 +9,7 @@ _Release Date : not yet released_
     * Asset Type : Product Category field - update referenced values from GS1 GPC - Class, to GS1 GPC - Family Code
     * Asset Type : Industry field - update referenced values from ICB Subsector code list, to ICB Supersector code list
     * Asset Type : Clarify country_of_origin and recycled_materials_country_of_origin fields to specifiy values from Alpha-2 format of ISO-3166
+    * Asset Type : rename field from packaging_type to reusable_asset_type
     * Passport : Add asset_type reference
 
 * Other Changes
