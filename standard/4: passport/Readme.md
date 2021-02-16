@@ -7,6 +7,7 @@ Describes the state of all individual reusable assets at specific point in time.
 Field Name | Data Type | Required | Description
 ---------- | --------- | -------- | -----------
 asset_id|UUID|Yes|Unique identifier|
+asset_type|UUID|Yes|Single [asset_type_id](../3:%20asset_type) for this asset|
 in_reuse|Boolean|Yes|Is the asset live (within date_range), or has it been decommissioned?|
 latest_activity|UUID|No|Single activity_id for the most recent (within date_range) activity in reuse cycle that this individual asset passed through|
 latest_activity_date|DateTime|No|When most recent activity (within date_range) was tracked|

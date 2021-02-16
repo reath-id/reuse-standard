@@ -1,5 +1,5 @@
 {
-    "id": "https://reuse-standard.org/v0.1-alpha/schema/passport.schema.json#",
+    "id": "https://reuse-standard.org/v0.1-alpha2/schema/passport.schema.json#",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "type": "object",
     "properties": {
@@ -19,7 +19,7 @@
             "format": "date-time"
         },
         "latest_activity_location": {
-            "$ref": "https://reuse-standard.org/v0.1-alpha/schema/location.schema.json#"
+            "$ref": "https://reuse-standard.org/v0.1-alpha2/schema/location.schema.json#"
         },
         "completed_cycle_count": {
             "type": "number"

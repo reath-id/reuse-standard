@@ -1,5 +1,5 @@
 {
-    "$schema": "https://reuse-standard.org/v0.1-alpha/schema/reuse.schema.json#",
+    "$schema": "https://reuse-standard.org/v0.1-alpha2/schema/reuse.schema.json#",
     "org": {
         "name": "Endzone.io Ltd t/a HappyPorch",
         "org_id": "GB-COH-SC492581"
@@ -42,7 +42,7 @@
             "asset_type_id": "b88db315-0e61-489a-be89-9e4a6fa62eb4",
             "name": "bottle",
             "cycle_id": ["7b7628a8-09a6-4913-bbb6-67e2ef19aed2"],
-            "packaging_type": "bottle",
+            "reusable_asset_type": "bottle",
             "unit_cost": {
                 "currency": "GBP",
                 "value": "22.22"

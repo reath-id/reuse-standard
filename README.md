@@ -1,6 +1,6 @@
-# DRAFT (Alpha) v0.1
+# Reuse Standard v0.1-alpha2
 
-> This is a draft (alpha) standard. Please [contact us](https://docs.google.com/forms/d/e/1FAIpQLSf7BN-I_-sZxhkgcVALyEztE2KFRw-o-jPCWNkLExjRIYRhGQ/viewform?usp=sf_link) with questions or feedback. We are especially keen to hear from individuals and organisations interested in moving this standard forward.
+> This is the second draft (alpha) of this standard. Please [contact us](https://docs.google.com/forms/d/e/1FAIpQLSf7BN-I_-sZxhkgcVALyEztE2KFRw-o-jPCWNkLExjRIYRhGQ/viewform?usp=sf_link) with questions or feedback. We are especially keen to hear from individuals and organisations interested in using this standard.
 
 ## Why a reuse Open Data Standard?
 
@@ -39,6 +39,10 @@ This draft standard defines the "what" of the reuse data for the purposes of sha
 The standard itself is Open for the purposes of shared understanding. The standard does not *require* that any actual data sets be made "Open" and available to all.  
 
 The standard does enable organisations to choose which data to share publicly (if any) and also enables more detailed data to be shared only with trusted parties or regulators.
+
+
+## Versioning and Update Process
+As the reuse space continues to develop and evolve, updates to the Standard will be necessary to ensure it remains relevant to both current and prospective users. [This process is defined here](./process)
 
 ## Who
 
