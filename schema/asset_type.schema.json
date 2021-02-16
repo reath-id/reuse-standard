@@ -95,7 +95,7 @@
             "type": "number"
         }
     },
-    "required": ["asset_type_id", "cycle_id", "country_of_origin", "primary_material", "is_recycled", "cleaning_method"],
+    "required": ["asset_type_id", "cycle_id", "country_of_origin", "primary_material", "reusable_asset_type", "is_recycled", "cleaning_method"],
     "definitions": {
         "money": {
             "type": "object",
