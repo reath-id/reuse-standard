@@ -1,10 +1,10 @@
 {
-    "id": "https://reuse-standard.org/v0.1-alpha2/schema/reuse.schema.json#",
+    "id": "https://reuse-standard.org/schema/reuse.schema.json#",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "type": "object",
     "properties": {
         "org": {
-            "$ref": "https://reuse-standard.org/v0.1-alpha2/schema/org.schema.json#"
+            "$ref": "https://reuse-standard.org/schema/org.schema.json#"
         },
         "date": {
             "type": "string",
@@ -13,18 +13,18 @@
         "cycles":{
             "type": "array",
             "uniqueItems": true,
-            "items": { "$ref": "https://reuse-standard.org/v0.1-alpha2/schema/cycle.schema.json#" }
+            "items": { "$ref": "https://reuse-standard.org/schema/cycle.schema.json#" }
         },
         "date-range":  { "$ref": "#/definitions/date_range" },
         "passports":{
             "type": "array",
             "uniqueItems": true,
-            "items": { "$ref": "https://reuse-standard.org/v0.1-alpha2/schema/passport.schema.json#" }
+            "items": { "$ref": "https://reuse-standard.org/schema/passport.schema.json#" }
         },
         "passport_history":{
             "type": "array",
             "uniqueItems": true,
-            "items": { "$ref": "https://reuse-standard.org/v0.1-alpha2/schema/passport_history.schema.json#" }
+            "items": { "$ref": "https://reuse-standard.org/schema/passport_history.schema.json#" }
         }
     },
     "required": ["org", "date", "cycles"],
