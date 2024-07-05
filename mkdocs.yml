@@ -1,0 +1,57 @@
+site_name: Reuse Standard
+site_description: A draft (alpha) Open Data Standard to accelerate and de-risk the shift towards reusable products (especially packaging).
+site_url: https://reuse-standard.org
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    primary: custom
+    accent: custom
+  features:
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
+    - navigation.path
+    - navigation.footer
+    - content.code.copy
+extra:
+  version:
+    provider: mike
+  repo_url: https://github.com/reath-id/reuse-standard
+  repo_name: reath-id/reuse-standard
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; <a href="https://github.com/reath-id">reath-id</a>, and released under the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+# Page Tree
+nav:
+  - Home: index.md
+  - Introduction: 1_Introduction/1_1_Introduction.md
+  - Technical Definitions: 2_Technical_Definitions/2_1_Technical_Definitions.md
+  - Core Schema: 
+    - Structure: 3_Core_Schema/3_1_Structure.md
+    - Org: 3_Core_Schema/3_2_Org.md
+    - Cycle: 3_Core_Schema/3_3_Cycle.md
+    - Asset Type: 3_Core_Schema/3_4_Asset_Type.md
+    - Passport: 3_Core_Schema/3_5_Passport.md
+    - Passport History: 3_Core_Schema/3_6_Passport_History.md
+  - Code Lists: 4_Code_Lists/4_1_Code_Lists.md
+  - Process: 5_Process/5_1_Process.md
+  - License: 6_License/6_1_License.md
+  - Change Log: 7_Change_Log/7_1_Change_Log.md
+
+markdown_extensions:
+  - admonition
+  - meta
+  - attr_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - toc:
+      permalink: True
+  - tables
