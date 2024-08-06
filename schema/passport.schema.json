@@ -1,0 +1,35 @@
+{
+    "id": "https://reuse-standard.org/schema/passport.schema.json#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "asset_id": {
+            "type": "string",
+            "pattern": "[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12}"
+        },
+        "in_reuse": {
+            "type": "boolean"
+        },
+        "latest_activity": {
+            "type": "string",
+            "pattern": "[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12}"
+        },
+        "latest_activity_date": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "latest_activity_location": {
+            "$ref": "https://reuse-standard.org/schema/location.schema.json#"
+        },
+        "completed_cycle_count": {
+            "type": "number"
+        },
+        "other_ref": {
+            "type": "string"
+        },
+        "decommission_reason": {
+            "type": "string"
+        }
+    },
+    "required": ["asset_id", "in_reuse"]
+}

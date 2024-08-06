@@ -1,0 +1,23 @@
+{
+    "id": "https://reuse-standard.org/schema/passport_history.schema.json#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "asset": {
+            "type": "string",
+            "pattern": "[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12}"
+        },
+        "activity": {
+            "type": "string",
+            "pattern": "[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12}"
+        },
+        "date": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "location": {
+            "$ref": "https://reuse-standard.org/schema/location.schema.json#"
+        }
+    },
+    "required": ["asset", "activity", "date"]
+}
