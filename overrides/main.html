@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+<!-- Tracking -->
+ {% block extrahead %}
+ <script defer data-domain="reuse-standard.org" src="https://plausible.io/js/script.js"></script>
+ {% endblock %}
+
+<!-- Stable version warning -->
+{% block outdated %}
+  You're not viewing the stable version.
+  <a href="{{ '../' ~ base_url }}"> 
+    <strong>Click here to go to stable.</strong>
+  </a>
+{% endblock %}
+
+<!-- Announcement bar -->
+{% block announce %}
+  <span class="twemoji">
+    {% include ".icons/fontawesome/solid/circle-info.svg" %}
+  </span>
+  This is a draft standard. Please <a href="https://reath.id/contact">contact us</a> with questions or feedback.<br />
+  We are especially keen to hear from individuals and organisations interested in moving this standard forward.
+{% endblock %}

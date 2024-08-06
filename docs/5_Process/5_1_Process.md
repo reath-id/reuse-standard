@@ -1,3 +1,8 @@
+---
+title: Process
+description: Process of how the Reuse Standard is being versioned and updated.
+---
+
 # Versioning and Update Process
 As the reuse space continues to develop and evolve, updates to the Standard will be necessary to ensure it remains relevant to both current and prospective users. 
 
@@ -17,7 +22,7 @@ Updates will be developed via a draft branch in Github, before being reviewed an
 Historic versions of the Standard will be accessible in Github, using their respective Tags.
 
 
-## Process for Updating the Standard:
+## Process for Updating the Standard
 
 1. Proposing an update
    - Change requests can be submitted by anyone, using the contact form on https://reuse-standard.org or through Github
@@ -34,4 +39,4 @@ Historic versions of the Standard will be accessible in Github, using their resp
 5. Updated version release
    - The final updated version is released to the live Github branch
 
-If you are interested in the progress of reuse.id and would like to be part of the Consortium, please [contact us](https://docs.google.com/forms/d/e/1FAIpQLSf7BN-I_-sZxhkgcVALyEztE2KFRw-o-jPCWNkLExjRIYRhGQ/viewform?usp=sf_link).
+If you are interested in the progress of the Reuse Standard and would like to be part of the Consortium, please [contact us](https://docs.google.com/forms/d/e/1FAIpQLSf7BN-I_-sZxhkgcVALyEztE2KFRw-o-jPCWNkLExjRIYRhGQ/viewform?usp=sf_link).

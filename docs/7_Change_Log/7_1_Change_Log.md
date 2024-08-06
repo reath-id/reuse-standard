@@ -1,6 +1,11 @@
-# Reuse Standard : Change Log
+---
+title: Change Log
+description: A document that contains all the changes made to the standard.
+---
+# Change Log
+A document that contains all the changes made to the standard.
 
-### Current Version : v0.1-alpha2
+## v0.1-alpha2
 _Release Date : 16 Feb 2021_
 
 * Breaking Changes 

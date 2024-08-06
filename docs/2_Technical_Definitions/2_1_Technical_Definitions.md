@@ -1,6 +1,9 @@
-# Technical Definition
+---
+title: Technical definitions
+description: a list of terms and definitions used within the Reuse Standard.
+---
 
-> This is a draft (alpha) standard. Please [contact us](https://reath.id/contact) with questions or feedback. We are especially keen to hear from individuals and organisations interested in moving this standard forward.
+# Technical Definitions
 
 ## Options
 
@@ -33,12 +36,11 @@ JSON Schema allows the structure of JSON documents to be described and documente
 
 When referenced in the standard, field types refer to the following data types.
 
-
 Field Type | Description
 ---------- | -----------
 String|Alphanumeric data, appropriately escaped and encoded for inclusion in a JSON document. 
 Number|Numeric value, with either zero or two decimal points (eg: 12.20 or 7.00). 
-List|Alphanumeric string data, limited to specific acceptable values. The acceptable values are defined in the relevant internal [code list](./standard/codelists) or in external standards or recognised code lists.
+List|Alphanumeric string data, limited to specific acceptable values. The acceptable values are defined in the relevant internal [code list](./../4_Code_Lists/4_1_Code_Lists.md) or in external standards or recognised code lists.
 UUID|A globally unique identification string using "RFC 4122" (https://www.ietf.org/rfc/rfc4122.txt, see also http://guid.one/).
 Numeric|A numeric value, either as an integer or a  floating point number.
 DateTime|An RFC 3339 compliant date string, including date, time, and time zone.
@@ -47,27 +49,20 @@ Boolean|A boolean string of either true, or false.
 Object|A valid JSON object, representing a collection of additional values that are grouped together.
 Array|A valid JSON array, representing a collection of objects.
 
+## Custom Field Types
 
-# Structure
+A few more complex field types are defined as well.
 
-
-## Fields
-
-Field Name | Data Type | Required | Description
----------- | --------- | -------- | -----------
-[org](./1:%20org)|Object|Yes|The single organisation responsible for this reuse dataset
-date|DateTime|Yes|When this data was compiled
-[cycles](./2:%20cycle)|Array|Yes|Defines the reuse cycle(s). Array of [cycle objects](./2:%20cycle)
-[asset_types](./3:%20asset_type)|Array|No|Describes the types of physical reusable assets (eg packaging) that are moving through the reuse cycles. Array of [asset_type objects](./3:%20asset_type). *Required if either passport or passport_history fields are present*
-date_range|Object|No|Optional date range for the Passport and Passport History data, as a [Date Range](./#Date%20Range) object. *Required if passport_history is present*
-[passports](./4:%20passport)|Array|No|Describes the state of all individual reusable assets at specific point in time (either date_range end or date). Array of [passport objects](./4:%20passport)
-[passport_history](./5:%20passport_history)|Array|No|Record of all Activities of a reuse cycle that each individual reusable asset has been through, within date_range start and end dates. Array of [passport_history objects](./5:%20passport_history)
-
-[Schema](../schema/reuse.schema.json)
-
-## Date Range
+### Date Range
 
 Field Name | Data Type | Required | Description
 ---------- | --------- | -------- | -----------
 start|DateTime|Yes|When the date range starts
 end|DateTime|Yes|When the date range ends
+
+### Money
+
+Field Name | Data Type | Required | Description
+---------- | --------- | -------- | -----------
+currency|List|Yes|Alphabetic Currency code from [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html)|
+amount|Number|Yes|Value amount|
